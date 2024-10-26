@@ -1,0 +1,70 @@
+.weather{
+    height: 100vh;
+    width: 100vw;
+}
+.nav{
+    border: 2px solid black;
+    height: 6vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.submit{
+    margin-left: 40px;
+    color: white;
+    background-color: lightblue;
+}
+.submit:hover{
+    background-color: blue;
+}
+.areaSearch{
+    width: 40vw;
+}
+.display{
+    
+    height: 250px;
+    width: 400px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    /* background-color:rgb(250, 95, 85); */
+    border-radius: 10px;
+    
+}
+.displayContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96vh;
+    width: 100vw;
+}
+.tempTime{
+    display: flex;
+    flex-direction: column;
+    
+}
+.weatherCondition{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.report{
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.area{
+    margin-bottom: 10px;
+}
+.error{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+}

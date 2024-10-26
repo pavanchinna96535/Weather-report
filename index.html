@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather">
+        <div class="nav">
+            <input id="areaSearch" type="text" class="areaSearch" placeholder="search location...">
+            <button type="submit" class="submit">Search</button>
+        </div>
+        <div class="displayContainer">
+            <div class="display">
+                
+                <div class="temperature report"></div>
+                <div class="tempTime report">
+                    <div class="area"></div>
+                    <div class="time"></div>
+                </div>
+                <div class="weatherCondition report">
+                    <img class="icon" >
+                    <div class="condition"></div>
+                </div>
+                <div class="error"></div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
